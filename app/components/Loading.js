@@ -1,5 +1,5 @@
 var React = require('react');
-var ProptTypes = require('prop-types');
+var PropTypes = require('prop-types');
 
 
 var styles = {
@@ -40,7 +40,7 @@ class Loading extends React.Component {
 		}
     render() {
         return (
-            <p style={styles.content}</p>
+            <p style={styles.content}>
 							{this.state.text}
 						</p>
         );
